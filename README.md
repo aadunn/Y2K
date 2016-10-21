@@ -1,2 +1,2 @@
 # Y2K
-lets go
+gotta go fast
