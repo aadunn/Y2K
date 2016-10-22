@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.bg {
+    width: 100%;
+}
+.homage {
+    width: 100%;
+    position: relative;
+}
+.onImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
