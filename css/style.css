@@ -1,19 +1,44 @@
+@keyframes heading-animation {
+  0% {
+    transform: translateX(-100%) translateY(-50%);
+  }
+  100% {
+    transform: translateX(0%) translateY(-50%);
+  }
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/y2k.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .bg {
     width: 100%;
-}
-.homage {
-    width: 100%;
-    position: relative;
 }
 .onImg {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    font-family: 'Comic Sans MS';
+    text-transform: uppercase;
     color: white;
     text-shadow: 2px 2px 4px #000000;
+    animation-name: heading-animation;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
