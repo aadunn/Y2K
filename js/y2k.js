@@ -1,5 +1,5 @@
 $( window ).konami({
 	cheat: function() {
-		window.open('https://scratch.mit.edu/projects/editor/?tip_bar=getStarted', '_self');
+		window.open('https://www.instagram.com/year2000inchat/', '_self');
 	}
 });
